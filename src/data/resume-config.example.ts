@@ -12,26 +12,26 @@ import type { ResumeConfig } from './types'
 export const resumeConfig: ResumeConfig = {
   // ===== PERSONAL INFO =====
   personal: {
-    name: 'Jane Doe',
+    name: 'Léonnel Monel TOGNI',
     // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
     // You can also set a specific path here to override auto-detection:
     photo: '/images/photo.jpg',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Fullstack Developer',
-      fr: 'Développeuse Fullstack',
+      en: 'UI/UX Designer & Gestionnaire de projet digital',
+      fr: 'UI/UX Designer & Gestionnaire de projet digital',
     },
     subtitle: {
-      en: '6 years of experience',
-      fr: '6 ans d\'expérience',
+      en: '3 years of experience',
+      fr: '3 ans d\'expériences',
     },
-    location: 'Paris, France',
+    location: 'Cotonou, Bénin',
   },
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Jane Doe — Fullstack Developer',
-    description: 'Interactive resume of Jane Doe, Fullstack Developer specializing in React and TypeScript.',
+    title: 'Léonnel Monel TOGNI — UI/UX Designer',
+    description: 'Interactive resume of Monel Léonnel TOGNI, UI/UX Designer specializing in React and TypeScript.',
   },
 
   // ===== LANGUAGES =====
@@ -46,11 +46,11 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: 'github', label: 'janedoe', href: 'https://github.com/janedoe' },
-    { type: 'linkedin', label: 'Jane Doe', href: 'https://linkedin.com/in/janedoe' },
-    { type: 'email', label: 'jane@example.com' },
-    { type: 'phone', label: '+33 6 12 34 56 78' },
-    { type: 'location', label: 'Paris, France' },
+    { type: 'github', label: 'leonneltogni', href: 'https://github.com/TOGNIMONEL' },
+    { type: 'linkedin', label: 'leonneltogni', href: 'https://www.linkedin.com/in/l%C3%A9onnel-monel-togni-79a661187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+    { type: 'email', label: 'leonnel.togni@epitech.eu' },
+    { type: 'phone', label: '+229 01 40 59 62 62' },
+    { type: 'location', label: 'Cotonou, Bénin' },
   ],
 
   // ===== SKILLS =====
@@ -60,125 +60,96 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 910' },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Intermediate', fr: 'Intermédiaire' }, details: 'B2' },
+      ],
+    },
+    {
+      title: { en: 'Design', fr: 'Design' },
+      type: 'badges',
+      items: [
+        { name: 'FIgma' },
+        { name: 'Adobe XD' },
+        { name: 'Photoshop' },
+        { name: 'UX/UI' },
+        { name: 'Userflow' },
+        { name: 'Wireframes' },
+        { name: 'Pixel Perfect' },
       ],
     },
     {
       title: { en: 'Frontend', fr: 'Frontend' },
       type: 'badges',
       items: [
-        { name: 'React' },
+        { name: 'Vue.JS' },
         { name: 'TypeScript' },
         { name: 'Angular' },
-      ],
-    },
-    {
-      title: { en: 'Backend', fr: 'Backend' },
-      type: 'badges',
-      items: [
-        { name: 'Node.js' },
-        { name: 'Python' },
-      ],
-    },
-    {
-      title: { en: 'Database', fr: 'Base de données' },
-      type: 'badges',
-      items: [
-        { name: 'PostgreSQL' },
-        { name: 'MongoDB' },
-      ],
-    },
-    {
-      title: { en: 'DevOps', fr: 'DevOps' },
-      type: 'badges',
-      items: [
-        { name: 'Docker' },
-        { name: 'Kubernetes' },
-        { name: 'AWS' },
-        { name: 'GitHub Actions' },
+        { name: 'React' },
       ],
     },
     {
       title: { en: 'Methodologies', fr: 'Méthodologies' },
       type: 'text',
       items: [
-        { name: { en: 'Agile/Scrum, TDD, Code Review, CI/CD', fr: 'Agile/Scrum, TDD, Code Review, CI/CD' } },
+        { name: { en: 'Agile/Scrum, Design Thinking, User-Centered Design (UCD), Design sprint', fr: 'Certifié Agile/Scrum, Design Thinking,User-Centered Design (UCD), Design sprint' } },
       ],
     },
   ],
-
   // ===== PROFESSIONAL EXPERIENCES =====
   experiences: [
     {
       id: 'company-a',
-      company: { en: 'TechCorp', fr: 'TechCorp' },
-      role: { en: 'Senior Fullstack Developer', fr: 'Développeuse Fullstack Senior' },
-      type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: '2022 - Present', fr: '2022 - Présent' },
+      company: { en: 'ADELABS', fr: 'ADELABS' },
+      role: { en: 'Designer UI/UX • Digital project manager ', fr: 'Designer UI/UX • Chef de projet digital ' },
+      type: { en: 'Permanent', fr: 'CDD' },
+      period: { en: '2025 - 2026', fr: '2025 - 2026' },
       description: {
         en: 'Led the development of a SaaS platform used by 10k+ users. Built microservices architecture and modern React frontend.',
-        fr: 'Direction du développement d\'une plateforme SaaS utilisée par 10k+ utilisateurs. Architecture microservices et frontend React moderne.',
+        fr: 'Coordination des équipes design et développement, avec une approche orientée performance, scalabilité et expérience utilisateur.',
       },
-      techs: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'AWS'],
+      techs: ['Figma', 'Photoshop', 'Pixel Perfect', 'Adobe XD'],
       isHighlighted: true,
       details: {
         context: {
-          en: 'Team of 8 developers within a 50-person product company. Agile/Scrum methodology with 2-week sprints, CI/CD pipeline with GitHub Actions, code reviews on every PR.',
-          fr: 'Équipe de 8 développeurs au sein d\'une société produit de 50 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines, pipeline CI/CD avec GitHub Actions, code review sur chaque PR.',
+          en: 'Designing interfaces in Figma using a pixel-perfect approach, ensuring complete fidelity between mockups and final implementation while respecting technical constraints.',
+          fr: 'Conception d\'interfaces sur Figma avec une approche pixel-perfect, garantissant une fidélité absolue entre la maquette et l\'implémentation finale, tout en respectant les contraintes techniques.',
         },
         tasks: {
           en: [
-            'Designed and implemented the frontend architecture (monorepo, shared component library)',
-            'Built a real-time notification system using WebSockets and Redis pub/sub',
-            'Migrated legacy codebase from JavaScript to TypeScript (200+ files)',
-            'Implemented role-based access control (RBAC) across the entire platform',
-            'Set up automated testing with 85% code coverage (unit, integration, E2E)',
-            'Led the migration from REST to GraphQL for the main API',
-            'Built a dashboard analytics module with interactive charts and export features',
-            'Mentored 3 junior developers through pair programming and weekly 1-on-1s',
+            'High-Fidelity Design: Creation of Figma mockups using a pixel-perfect approach, ensuring seamless consistency between design and frontend implementation.',
+            'Web Performance: Auditing and optimization of Google PageSpeed scores to ensure a smooth user experience and minimize bounce rate.',
+            'Visibility & SEO: Implementation of SEO strategies, management of Google Business Profile listings, and deployment of structured data to maximize search engine ranking.',
+            'Design System: Development of a reusable component library to ensure visual consistency across all platforms.',
+            'Agile Management: End-to-end workflow management using Trello, from benchmark analysis to KPI validation.',
           ],
           fr: [
-            'Conception et implémentation de l\'architecture frontend (monorepo, bibliothèque de composants partagés)',
-            'Création d\'un système de notifications temps réel via WebSockets et Redis pub/sub',
-            'Migration du code legacy de JavaScript vers TypeScript (200+ fichiers)',
-            'Implémentation d\'un contrôle d\'accès basé sur les rôles (RBAC) sur toute la plateforme',
-            'Mise en place de tests automatisés avec 85% de couverture (unitaires, intégration, E2E)',
-            'Pilotage de la migration de REST vers GraphQL pour l\'API principale',
-            'Développement d\'un module de tableau de bord analytique avec graphiques interactifs et export',
-            'Mentorat de 3 développeurs juniors via pair programming et 1-on-1 hebdomadaires',
-          ],
-        },
-        training: {
-          en: [
-            'AWS Solutions Architect certification',
-            'Internal training on Kubernetes orchestration',
-          ],
-          fr: [
-            'Certification AWS Solutions Architect',
-            'Formation interne sur l\'orchestration Kubernetes',
+            'Conception haute fidélité : création de maquettes Figma avec une approche "Pixel Perfect", assurant une transition sans perte entre le design et l\'intégration.',
+            '​Performance web : audit et optimisation des scores Google PageSpeed pour garantir une expérience fluide et un taux de rebond minimal.',
+            '​Visibilité & SEO : mise en œuvre de stratégies de référencement naturel, gestion des fiches Google Business Profile et déploiement de données structurées pour maximiser le ranking.',
+            '​Design system : élaboration d\'une bibliothèque de composants réutilisables pour une cohérence visuelle sur tous les supports.',
+            '​Pilotage agile : gestion complète du workflow sous Trello, de l\'analyse du benchmark à la validation des KPI.',
           ],
         },
         env: {
-          en: 'React / TypeScript / Node.js / PostgreSQL / GraphQL / Redis / Docker / AWS / GitHub Actions / Datadog',
-          fr: 'React / TypeScript / Node.js / PostgreSQL / GraphQL / Redis / Docker / AWS / GitHub Actions / Datadog',
+          en: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
+          fr: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
         },
       },
     },
     {
       id: 'company-b',
-      company: { en: 'WebAgency', fr: 'WebAgency' },
-      role: { en: 'Frontend Developer', fr: 'Développeuse Frontend' },
-      type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: '2019 - 2022', fr: '2019 - 2022' },
+      company: { en: 'Ministry of Labour and Public Service', fr: 'Ministère du Travail et de la Fonction publique' },
+       role: { en: 'Designer UI/UX • Digital project manager ', fr: 'Designer UI/UX • Chef de projet digital ' },
+      type: { en: 'Internship', fr: 'Stage professionnel' },
+      period: { en: '2024 - 2025', fr: '2024 - 2025' },
       description: {
-        en: 'Developed responsive web applications for various clients. Specialized in React and Angular projects.',
-        fr: 'Développement d\'applications web responsives pour divers clients. Spécialisée en projets React et Angular.',
+        en: 'Strategic leadership and UX/UI design of institutional digital platforms within the IT Department of the Ministry of Labour and Public Service. Led the redesign of the administrative e-services portal and the official ministry website, adopting a user-centered, performance-driven, and accessibility-focused approach to public digital transformation.',
+        fr: 'Pilotage stratégique et conception UX/UI des plateformes numériques institutionnelles au sein de la Direction des Services Informatiques. Coordination de la refonte du portail des démarches administratives et du site web ministériel, avec une approche centrée utilisateur, orientée performance, accessibilité et modernisation des services publics digitaux.',
       },
-      techs: ['React', 'Angular', 'TypeScript', 'SCSS'],
+      techs: ['Figma', 'Photoshop', 'Pixel Perfect', 'Adobe XD'],
       details: {
         context: {
-          en: 'Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.',
-          fr: 'Agence digitale avec 20+ clients dans différents secteurs (retail, finance, santé). Équipe de 12 développeurs, travaillant sur 3-4 projets simultanément.',
+          en: 'As part of the public sector digital transformation initiative, I played a cross-functional role combining project management, product design, and technical coordination. The mission aimed to modernize access to administrative services, improve transparency, and optimize the performance of public digital platforms.',
+          fr: 'Dans un contexte de transformation digitale du secteur public, j\'ai assuré un rôle transversal combinant gestion de projet, design produit et coordination technique. Cette mission visait à moderniser l\'accès aux services administratifs, améliorer la transparence et optimiser les performances des plateformes publiques.',
         },
         tasks: {
           en: [
@@ -191,68 +162,101 @@ export const resumeConfig: ResumeConfig = {
             'Collaborated closely with UX designers to translate Figma mockups into pixel-perfect UIs',
           ],
           fr: [
-            'Développement de 15+ applications web clients from scratch',
-            'Création et maintenance d\'un design system partagé utilisé sur tous les projets de l\'agence',
-            'Implémentation de workflows de formulaires complexes avec validation multi-étapes',
-            'Optimisation des performances web avec scores 90+ sur les Core Web Vitals',
-            'Intégration d\'APIs tierces (paiement, CRM, analytics)',
+            'Pilotage de Projet Digital : Coordination du cycle de vie des solutions e-services, de l\'analyse des besoins métiers à la mise en production des plateformes.',
+            '​Gestion d\'Équipe & Agilité : Collaboration étroite avec le DSI et les équipes de développement en mode Scrum, assurant le suivi des sprints, la levée des points de blocage et le respect des délais ministériels.',
+            'Conception & Vision Produit : Création de maquettes et prototypes interactifs pour valider les parcours utilisateur​s avec les directions métiers avant le développement.Conception & Vision Produit : Création de maquettes et prototypes interactifs pour valider les parcours utilisateur​s avec les directions métiers avant le développement.',
+            '​Ingénierie de Données : Développement de tableaux de bord dynamiques pour la visualisation de données en temps réel, incluant des systèmes de filtres complexes pour l\'analyse par région/département.',
+            'Optimisation Technique : Supervision des performances des bases de données SQL et des API REST,CRM, analytics',
             'Mise en place de la documentation Storybook pour les composants réutilisables',
-            'Collaboration étroite avec les designers UX pour traduire les maquettes Figma en interfaces pixel-perfect',
+            'Collaboration étroite avec les developpeurs pour traduire les maquettes Figma en interfaces pixel-perfect',
           ],
         },
-        training: {
-          en: [
-            'Angular Advanced workshop (2 days)',
-            'Accessibility (WCAG 2.1) certification',
-          ],
-          fr: [
-            'Workshop Angular Avancé (2 jours)',
-            'Certification Accessibilité (WCAG 2.1)',
-          ],
-        },
-        env: {
-          en: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
-          fr: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
+        
+       env: {
+          en: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
+          fr: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
         },
       },
     },
     {
       id: 'internship',
-      company: { en: 'StartupXYZ', fr: 'StartupXYZ' },
-      role: { en: 'Fullstack Developer Intern', fr: 'Stagiaire Développeuse Fullstack' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: '2018 - 2019', fr: '2018 - 2019' },
+      company: { en: 'Future Studio', fr: 'Future Studio' },
+      role: { en: 'Designer UI/UX', fr: 'Designer UI/UX' },
+      type: { en: '', fr: 'Freelance' },
+      period: { en: '2023 - 2024', fr: '2023 - 2024' },
       description: {
-        en: 'Contributed to the development of an e-commerce platform. Gained experience in fullstack development.',
-        fr: 'Contribution au développement d\'une plateforme e-commerce. Acquisition d\'expérience en développement fullstack.',
+        en: 'Contributed to the development of a digital platform for sports communities, streamlining the organization, promotion, and management of online sporting events.',
+        fr: 'Participation au développement d\'une plateforme digitale destinée aux communautés sportives, permettant l\'organisation, la promotion et la gestion d\'événements sportifs en ligne.',
       },
-      techs: ['React', 'Node.js', 'MongoDB', 'Machine Learning'],
+      techs: ['Figma', 'Photoshop', 'Pixel Perfect', 'Adobe XD'],
       details: {
         context: {
-          en: 'Early-stage startup (seed round), small team of 5 developers building an e-commerce platform from the ground up. Fast-paced environment with weekly releases.',
-          fr: 'Startup en phase de démarrage (seed round), petite équipe de 5 développeurs construisant une plateforme e-commerce from scratch. Environnement rapide avec des releases hebdomadaires.',
+          en: 'Seed-stage startup driven by a cross-functional team of 5 contributors, building an innovative digital platform designed to streamline the organization, promotion, and management of online sporting events.',
+          fr: 'Startup en phase d\'amorçage (seed stage), portée par une équipe restreinte et agile de 5 collaborateurs, concevant une plateforme digitale innovante dédiée à l\'organisation, la promotion et la gestion d\'événements sportifs en ligne.',
         },
         tasks: {
           en: [
-            'Developed the product catalog with advanced filtering and search',
-            'Built the shopping cart with real-time inventory checking',
-            'Integrated Stripe payment gateway with 3D Secure support',
-            'Implemented user authentication with JWT and OAuth (Google, Facebook)',
-            'Created an admin dashboard for order management and analytics',
-            'Wrote API documentation with Swagger/OpenAPI',
+            'Co-defined the product vision and strategic roadmap in close collaboration with the founders.',
+            'Led end-to-end UX/UI design, delivering wireframes, high-fidelity mockups, and interactive prototypes to validate user experience.',
+            'Developed and integrated core features enabling the organization, promotion, and management of online sporting events.',
+            'Built a scalable Design System to ensure visual consistency and long-term product growth.',
+            'Optimized performance and user experience to drive engagement and improve retention metrics.',
+            'Implemented rapid Agile iterations, prioritizing features based on business impact and user feedback.',
+            'Contributed to key architectural and technical decisions to ensure platform scalability.',
           ],
           fr: [
-            'Développement du catalogue produits avec filtrage avancé et recherche',
-            'Création du panier d\'achat avec vérification de stock en temps réel',
-            'Intégration de la passerelle de paiement Stripe avec support 3D Secure',
-            'Implémentation de l\'authentification utilisateur avec JWT et OAuth (Google, Facebook)',
-            'Création d\'un tableau de bord admin pour la gestion des commandes et les analytics',
-            'Rédaction de la documentation API avec Swagger/OpenAPI',
+            'Co-conception de la vision produit et définition de la roadmap stratégique en collaboration avec les fondateurs.',
+            'Conception UX/UI complète : wireframes, maquettes haute fidélité et prototypes interactifs pour valider l\'expérience utilisateur.',
+            'Développement et intégration de fonctionnalités clés pour l\'organisation, la promotion et la gestion d\'événements sportifs.',
+            'Structuration d\'un Design System évolutif pour garantir cohérence visuelle et scalabilité.',
+            'Optimisation des performances et de l\'expérience utilisateur afin d\'augmenter l\'engagement et la rétention.',
+            'Mise en place d\'itérations rapides en méthodologie Agile, avec priorisation des fonctionnalités selon l\'impact business.',
+            'Participation aux décisions techniques structurantes pour assurer la scalabilité de la plateforme.',  
           ],
         },
         env: {
-          en: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
-          fr: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
+          en: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
+          fr: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
+        },
+      },
+    },
+        {
+      id: 'internship',
+      company: { en: 'Sèmè City Open Park', fr: 'Sèmè City Open Park' },
+      role: { en: 'Web Designer', fr: 'Web Designer' },
+      type: { en: 'Freelance', fr: 'Freelance' },
+      period: { en: '2022 - 2023', fr: '2022 - 2023' },
+      description: {
+        en: 'Digital transformation project aimed at optimizing user flow management and space utilization within Sèmè Two Open Innovation Park by redesigning the user experience of an open-source space management platform (Fab Manager).',
+        fr: 'Projet de transformation digitale visant à optimiser la gestion des flux d\'usagers et l\'utilisation des espaces au sein du Sèmè Two Open Innovation Park, en repensant l\'expérience utilisateur d\'un logiciel open-source de gestion (Fab Manager).',
+      },
+      techs: ['Figma', 'Photoshop', 'Pixel Perfect', 'Adobe XD'],
+      details: {
+        context: {
+          en: 'Contributed to UX/UI design and product experience enhancement within a Scrum framework (2-week sprints).',
+          fr: 'Contribution à la conception UX/UI et à l\'amélioration de l\'expérience produit dans un environnement structuré en méthodologie Scrum (sprints de 2 semaines).',
+        },
+        tasks: {
+          en: [
+            'Contributed to the UX redesign of the platform to improve usability and user adoption',
+            'Designed user-focused interfaces and interaction flows',
+            'Collaborated within a Scrum framework (2-week sprints) alongside developers, Product Owner, and Scrum Master',
+            'Participated in Sprint Planning, Daily Scrums, Reviews, and Retrospectives',
+            'Contributed to KPI definition and sprint performance evaluation',
+            'Supported structured Agile workflows using collaborative tools (Slack, iceScrum, Klaxoon, Google Workspace)',
+          ],
+          fr: [
+            'Participation à la refonte de l\'expérience utilisateur du Fab Manager',
+            'Conception de maquettes et supports UX pour améliorer l\'accessibilité et la compréhension des services',
+            'Collaboration avec développeurs, Product Owner et Scrum Master en environnement Agile',
+            'Contribution à la définition des KPIs de sprint et aux revues produit',
+            'Participation aux cérémonies Scrum : Sprint Planning, Daily Scrum, Review et Rétrospective',
+            'Structuration des workflows collaboratifs (Slack, iceScrum, Klaxoon, Google Workspace)',
+          ],
+        },
+        env: {
+          en: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
+          fr: 'Figma / Photoshop / Adobe XD / Prototypage / SEO / Trello / Slack / Google Pagespeed / Google entreprise',
         },
       },
     },
@@ -262,38 +266,77 @@ export const resumeConfig: ResumeConfig = {
   projects: [
     {
       id: 'project-a',
-      title: { en: 'WeatherApp', fr: 'WeatherApp' },
+      title: { en: 'Asekkey', fr: 'Asekkey' },
       description: {
-        en: 'A real-time weather dashboard built with React and OpenWeather API.',
-        fr: 'Un tableau de bord météo en temps réel construit avec React et l\'API OpenWeather.',
+        en: 'Platform for subscribing to multi-risk home insurance, professional liability insurance, cyber insurance, and insurance for places of worship.',
+        fr: 'Plateforme de souscription d\'assurance multirisque habitation, la responsabilité civile professionnelle, la cyber-assurance et l\'assurance des lieux de culte. ',
       },
-      techs: ['React', 'TypeScript'],
-      url: 'https://weather-app.example.com',
-      github: 'https://github.com/janedoe/weather-app',
+      techs: ['Figma', 'Pixel Perfect'],
+      url: 'https://asekkey.fr/',
     },
     {
       id: 'project-b',
-      title: { en: 'TaskManager', fr: 'TaskManager' },
+      title: { en: 'AK PETROLEUM', fr: 'AK PETROLEUM' },
       description: {
-        en: 'A Kanban-style task management tool with drag-and-drop.',
-        fr: 'Un outil de gestion de tâches style Kanban avec glisser-déposer.',
+        en: 'A website and an internal tool for managing and tracking sales at the stations.',
+        fr: 'Un site et un outil interne de gestion et de suivies des ventes sur les stations',
       },
-      techs: ['React', 'Node.js', 'PostgreSQL'],
-      github: 'https://github.com/janedoe/task-manager',
+      techs: ['Figma', 'Pixel Perfect', 'Données structurées'],
+      url: 'https://www.akpetroleumsa.com/',
+    },
+    {
+      id: 'project-c',
+      title: { en: 'La Cave du Bénin', fr: 'La Cave du Bénin' },
+      description: {
+        en: 'An e-commerce website for a company\'s wines and spirits.',
+        fr: 'Un site de vente de vins et spiritueux pour une entreprise',
+      },
+      techs: ['Figma', 'Pixel Perfect', 'Données structurées'],
+      url: 'https://www.lacavedubenin.bj/',
+    },
+    {
+      id: 'project-d',
+      title: { en: 'Association for Risk Management of Places of Worship', fr: 'Association du Risk Management des Lieux de Culte' },
+      description: {
+        en: 'The platform aims to support religious communities in France by helping them anticipate, prevent, and manage various safety and security risks — such as fire hazards, vandalism, and accidents — to protect worshippers, property, and the continuity of religious activities.',
+        fr: 'Plateforme qui vise à accompagner les communautés religieuses en France pour anticiper, prévenir et gérer différents risques liés à la sécurité et à la protection des biens et des personnes, tels que les incendies, les actes de vandalisme ou les accidents, afin d\'assurer la sécurité des fidèles et la continuité des activités religieuses.',
+      },
+      techs: ['Figma', 'Pixel Perfect', 'Données structurées'],
+      url: 'https://www.armlc.fr/',
+    },
+    {
+      id: 'project-e',
+      title: { en: 'Anonymous', fr: 'Anonyme' },
+      description: {
+        en: 'Dashboard for tracking and managing the escalation process of user needs.',
+        fr: 'Tableau de bord de suivi et de traitement en escalade des besoins usagers',
+      },
+      techs: ['Figma', 'Pixel Perfect', 'Données structurées'],
+      url: 'https://www.figma.com/design/UY5OQaQE834fpqW8We8Yu3/Refonte?node-id=0-1&t=8uSQZNc8bTzzwE9a-1',
     },
   ],
 
   // ===== EDUCATION =====
   education: [
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Master in Computer Science', fr: 'Master Informatique' },
+      school: { en: 'Coding Academy by EPITECH', fr: 'Coding Academy by EPITECH' },
+      degree: { en: 'Frontend Developer', fr: 'Développeur Front-End' },
       specialty: { en: 'Web & Mobile Development', fr: 'Développement Web & Mobile' },
-      period: '2017 - 2019',
+      period: '2024 - 2025',
     },
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Bachelor in Computer Science', fr: 'Licence Informatique' },
+      school: { en: 'ScrumStudy', fr: 'ScrumStudy' },
+      degree: { en: 'Scrum Fundamentals Certificate', fr: 'Certification aux Fondamentaux de Scrum' },
+      period: '2024 - 2025',
+    },
+     {
+      school: { en: 'SEME CITY/PMI FRANCE', fr: 'SEME CITY/PMI FRANCE' },
+      degree: { en: 'Agile Methodology Certification', fr: 'Certification maitrise Approche Agile ' },
+      period: '2022 - 2023',
+    },
+     {
+      school: { en: 'ESAE', fr: 'ESAE' },
+      degree: { en: 'Bachelor of Arts in International Relations', fr: 'Licence en Relations Internationales' },
       period: '2014 - 2017',
     },
   ],
@@ -301,25 +344,21 @@ export const resumeConfig: ResumeConfig = {
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Photography', fr: 'Photographie' },
+      title: { en: 'PMI Volunteer', fr: 'PMI Bénévole' },
+    },
+    {
+      title: { en: 'Travel', fr: 'Voyager' },
+    },
+    {
+      title: { en: 'Service club', fr: 'Club service' },
       details: [
-        { en: 'Street photography', fr: 'Photo de rue' },
-        { en: '5 years', fr: '5 ans' },
+        { en: '10 years', fr: '10 ans' },
       ],
     },
     {
-      title: { en: 'Hiking', fr: 'Randonnée' },
+      title: { en: 'Basketball', fr: 'Basketball' },
       details: [
-        { en: 'Mountain trails', fr: 'Sentiers de montagne' },
-      ],
-    },
-    {
-      title: { en: 'Open Source', fr: 'Open Source' },
-    },
-    {
-      title: { en: 'Guitar', fr: 'Guitare' },
-      details: [
-        { en: '3 years', fr: '3 ans' },
+        { en: '15 years', fr: '15 ans' },
       ],
     },
   ],
@@ -329,9 +368,9 @@ export const resumeConfig: ResumeConfig = {
   // The download button will appear automatically — no config needed!
   // Uncomment below only if you need to override the auto-detection:
   // pdf: {
-  //   label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-  //   path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
-  // },
+  //label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
+ // path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
+  //},
 
   // ===== THEME =====
   theme: {

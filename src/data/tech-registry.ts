@@ -133,21 +133,21 @@ const TECH_REGISTRY = {
   'Framer Motion': { color: '#0055FF' },
 
   // ===== Tools & Others =====
-  'Git': { color: '#F05032' },
+  'Adobe XD': { color: '#F05032' },
   'GitHub': { color: '#181717' },
   'GitLab': { color: '#FC6D26' },
   'GraphQL': { color: '#E10098' },
-  'REST': { color: '#009688' },
-  'Prisma': { color: '#2D3748' },
+  'Pixel Perfect': { color: '#009688' },
+  'Framer': { color: '#2D3748' },
   'tRPC': { color: '#2596BE' },
-  'Vite': { color: '#646CFF' },
+  'Photoshop': { color: '#646CFF' },
   'Webpack': { color: '#8DD6F9' },
   'Rollup': { color: '#EC4A3F' },
   'esbuild': { color: '#FFCF00' },
   'Turbopack': { color: '#000000' },
   'Storybook': { color: '#FF4785' },
   'Figma': { color: '#F24E1E' },
-  'Stripe': { color: '#635BFF' },
+  'Données structurées': { color: '#635BFF' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
