@@ -18,7 +18,7 @@ export const resumeConfig: ResumeConfig = {
     photo: '/images/photo.jpg',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'UI/UX Designer & Gestionnaire de projet digital',
+      en: 'UI/UX Designer & IT Projet manager',
       fr: 'UI/UX Designer & Gestionnaire de projet digital',
     },
     subtitle: {
@@ -182,7 +182,7 @@ export const resumeConfig: ResumeConfig = {
       id: 'internship',
       company: { en: 'Future Studio', fr: 'Future Studio' },
       role: { en: 'Designer UI/UX', fr: 'Designer UI/UX' },
-      type: { en: '', fr: 'Freelance' },
+      type: { en: 'Freelance', fr: 'Freelance' },
       period: { en: '2023 - 2024', fr: '2023 - 2024' },
       description: {
         en: 'Contributed to the development of a digital platform for sports communities, streamlining the organization, promotion, and management of online sporting events.',
